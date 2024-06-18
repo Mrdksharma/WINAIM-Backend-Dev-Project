@@ -6,8 +6,13 @@ This project exercises reinforced the importance of structured database design a
 
 #### Screenshot 2:
 ![WhatsApp Image 2024-06-18 at 06 30 39](https://github.com/Mrdksharma/WINAIM-Backend-Dev-Project/assets/120471109/b735e177-5e1e-449b-a33e-badf2f573172)
+### Explanation:
 
-#### Screenshot 3:
+- The employees table includes columns for employee ID, first name, last name, department ID, and hire date. The department_id is a foreign key that references the departments table.
+- The departments table includes columns for department ID and department name.
+- The salaries table includes columns for employee ID, salary, from date, and to date. The primary key is a composite key consisting of employee_id and from_date. The employee_id is a foreign key that references the employees table.
+
+#### Screenshot 3: Inserting Sample dataset into table to demonstrate all three queries.
 ![WhatsApp Image 2024-06-18 at 06 30 39 (1)](https://github.com/Mrdksharma/WINAIM-Backend-Dev-Project/assets/120471109/13621841-0d74-456e-8beb-9062ab7cc8dc)
 
 #### Screenshot 4:
